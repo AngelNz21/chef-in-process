@@ -3,7 +3,5 @@ import vue from "@vitejs/plugin-vue";
 
 export default defineConfig({
   plugins: [vue()],
-  server: {
-    port: 3000
-  }
+  base: 'hhtps://angelnz21.github.io/chef-in-process/'
 });
